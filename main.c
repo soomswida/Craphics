@@ -46,6 +46,9 @@ int main(int argc, char *argv[]) {
 			buffer[i] = 0; 
 		}
 
+		double x_scale = 1 / 15.0;
+		double y_scale = 20.0;
+
 		printf("Debug: Before Animation Loop\n");
 
 		// Animation Loop
@@ -59,8 +62,7 @@ int main(int argc, char *argv[]) {
 
 			printf("Debug: Animation Loop 1\n");
 			// 1. Prepares ingredients 
-			double x_scale = 1 / 15.0;
-			double y_scale = 20.0;
+			
 			raw_x = (double)x;
 			raw_y = y_scale * sin(raw_x * x_scale);
 			y = (int)raw_y;
