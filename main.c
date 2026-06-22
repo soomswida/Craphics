@@ -53,10 +53,6 @@ int main(int argc, char *argv[]) {
 		// Animation Loop
 		while (1) {
 			// Current Phase : Dynamic Trajectory of Trigonometric functions
-			
-			// #Current Issue# The trajectory is not printed.
-			// - 1. Make another simple trajectory generator.
-			// - 2. Test it. 
 
 			// 1. Prepares ingredients 
 			raw_x = (double)x;
