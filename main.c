@@ -27,20 +27,15 @@ int main(int argc, char *argv[]) {
 			return 1; 
 		} 
 
+		// Size and Time
 		int width = atoi(argv[1]);
 		int height = atoi(argv[2]);
 		int how_long = atoi(argv[3]) * 1000;
-
-		
-
 		char canvas[width][height];
-		makeCanvas(width, height, canvas);
-		printCanvas(width, height, canvas); 
 
-
+		// Object Configs
 		int coord_x = 0;
 		int coord_y = 50;
-
 		int x = 0;
 		int y = 0; 
 		double raw_x = 0.0;
