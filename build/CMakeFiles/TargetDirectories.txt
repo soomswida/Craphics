@@ -1,0 +1,3 @@
+/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles/Cimulation.dir
+/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles/edit_cache.dir
+/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles/rebuild_cache.dir
