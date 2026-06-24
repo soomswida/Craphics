@@ -1,6 +1,6 @@
 # Goal
 
-The current state of dynamic graph has undersampline issue, namely, the dots cannot reprensent the graph enough because of its strict policy determining its output(printed dots). 
+The current state of dynamic graph has undersampling issue, namely, the dots cannot reprensent the graph enough because of its strict policy determining its output(printed dots). 
 
 To deal with it, a simple approximation logic will be implemented here. 
 
