@@ -16,7 +16,7 @@ But one may argue, "I got the gist, but why should it be about 'Computer Graphic
 
 Furthermore, we've got to think of the fact we implicitly assume "what it is" is "what it seems". All the visual images literally 'render' the most part of our lives. 
 
-So my vulgar answer is this — This foolish endevour is the first doorstep to the attitude of "knowing what we do not".
+So my vulgar answer is this — This foolish endevour is the first doorstep to the attitude of "knowing the fact that we do not".
 
 ## LLM Usage
 
