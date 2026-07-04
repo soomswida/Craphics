@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.c" "CMakeFiles/Cimulation.dir/canvas.c.o" "gcc" "CMakeFiles/Cimulation.dir/canvas.c.o.d"
-  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c" "CMakeFiles/Cimulation.dir/geometry.c.o" "gcc" "CMakeFiles/Cimulation.dir/geometry.c.o.d"
-  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/main.c" "CMakeFiles/Cimulation.dir/main.c.o" "gcc" "CMakeFiles/Cimulation.dir/main.c.o.d"
-  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/myBuffer.c" "CMakeFiles/Cimulation.dir/myBuffer.c.o" "gcc" "CMakeFiles/Cimulation.dir/myBuffer.c.o.d"
+  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.c" "CMakeFiles/Cimulation.dir/src/canvas.c.o" "gcc" "CMakeFiles/Cimulation.dir/src/canvas.c.o.d"
+  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.c" "CMakeFiles/Cimulation.dir/src/geometry.c.o" "gcc" "CMakeFiles/Cimulation.dir/src/geometry.c.o.d"
+  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/main.c" "CMakeFiles/Cimulation.dir/src/main.c.o" "gcc" "CMakeFiles/Cimulation.dir/src/main.c.o.d"
+  "/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c" "CMakeFiles/Cimulation.dir/src/myBuffer.c.o" "gcc" "CMakeFiles/Cimulation.dir/src/myBuffer.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

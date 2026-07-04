@@ -129,101 +129,101 @@ Cimulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/build
 .PHONY : Cimulation/fast
 
-canvas.o: canvas.c.o
-.PHONY : canvas.o
+src/canvas.o: src/canvas.c.o
+.PHONY : src/canvas.o
 
 # target to build an object file
-canvas.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/canvas.c.o
-.PHONY : canvas.c.o
+src/canvas.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/canvas.c.o
+.PHONY : src/canvas.c.o
 
-canvas.i: canvas.c.i
-.PHONY : canvas.i
+src/canvas.i: src/canvas.c.i
+.PHONY : src/canvas.i
 
 # target to preprocess a source file
-canvas.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/canvas.c.i
-.PHONY : canvas.c.i
+src/canvas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/canvas.c.i
+.PHONY : src/canvas.c.i
 
-canvas.s: canvas.c.s
-.PHONY : canvas.s
+src/canvas.s: src/canvas.c.s
+.PHONY : src/canvas.s
 
 # target to generate assembly for a file
-canvas.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/canvas.c.s
-.PHONY : canvas.c.s
+src/canvas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/canvas.c.s
+.PHONY : src/canvas.c.s
 
-geometry.o: geometry.c.o
-.PHONY : geometry.o
+src/geometry.o: src/geometry.c.o
+.PHONY : src/geometry.o
 
 # target to build an object file
-geometry.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/geometry.c.o
-.PHONY : geometry.c.o
+src/geometry.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/geometry.c.o
+.PHONY : src/geometry.c.o
 
-geometry.i: geometry.c.i
-.PHONY : geometry.i
+src/geometry.i: src/geometry.c.i
+.PHONY : src/geometry.i
 
 # target to preprocess a source file
-geometry.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/geometry.c.i
-.PHONY : geometry.c.i
+src/geometry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/geometry.c.i
+.PHONY : src/geometry.c.i
 
-geometry.s: geometry.c.s
-.PHONY : geometry.s
+src/geometry.s: src/geometry.c.s
+.PHONY : src/geometry.s
 
 # target to generate assembly for a file
-geometry.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/geometry.c.s
-.PHONY : geometry.c.s
+src/geometry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/geometry.c.s
+.PHONY : src/geometry.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-myBuffer.o: myBuffer.c.o
-.PHONY : myBuffer.o
+src/myBuffer.o: src/myBuffer.c.o
+.PHONY : src/myBuffer.o
 
 # target to build an object file
-myBuffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/myBuffer.c.o
-.PHONY : myBuffer.c.o
+src/myBuffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/myBuffer.c.o
+.PHONY : src/myBuffer.c.o
 
-myBuffer.i: myBuffer.c.i
-.PHONY : myBuffer.i
+src/myBuffer.i: src/myBuffer.c.i
+.PHONY : src/myBuffer.i
 
 # target to preprocess a source file
-myBuffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/myBuffer.c.i
-.PHONY : myBuffer.c.i
+src/myBuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/myBuffer.c.i
+.PHONY : src/myBuffer.c.i
 
-myBuffer.s: myBuffer.c.s
-.PHONY : myBuffer.s
+src/myBuffer.s: src/myBuffer.c.s
+.PHONY : src/myBuffer.s
 
 # target to generate assembly for a file
-myBuffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/myBuffer.c.s
-.PHONY : myBuffer.c.s
+src/myBuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/myBuffer.c.s
+.PHONY : src/myBuffer.c.s
 
 # Help Target
 help:
@@ -234,18 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cimulation"
-	@echo "... canvas.o"
-	@echo "... canvas.i"
-	@echo "... canvas.s"
-	@echo "... geometry.o"
-	@echo "... geometry.i"
-	@echo "... geometry.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... myBuffer.o"
-	@echo "... myBuffer.i"
-	@echo "... myBuffer.s"
+	@echo "... src/canvas.o"
+	@echo "... src/canvas.i"
+	@echo "... src/canvas.s"
+	@echo "... src/geometry.o"
+	@echo "... src/geometry.i"
+	@echo "... src/geometry.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/myBuffer.o"
+	@echo "... src/myBuffer.i"
+	@echo "... src/myBuffer.s"
 .PHONY : help
 
 

@@ -72,76 +72,76 @@ include CMakeFiles/Cimulation.dir/flags.make
 CMakeFiles/Cimulation.dir/codegen:
 .PHONY : CMakeFiles/Cimulation.dir/codegen
 
-CMakeFiles/Cimulation.dir/main.c.o: CMakeFiles/Cimulation.dir/flags.make
-CMakeFiles/Cimulation.dir/main.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/main.c
-CMakeFiles/Cimulation.dir/main.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cimulation.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/main.c.o -MF CMakeFiles/Cimulation.dir/main.c.o.d -o CMakeFiles/Cimulation.dir/main.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/main.c
+CMakeFiles/Cimulation.dir/src/main.c.o: CMakeFiles/Cimulation.dir/flags.make
+CMakeFiles/Cimulation.dir/src/main.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/main.c
+CMakeFiles/Cimulation.dir/src/main.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cimulation.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/src/main.c.o -MF CMakeFiles/Cimulation.dir/src/main.c.o.d -o CMakeFiles/Cimulation.dir/src/main.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/main.c
 
-CMakeFiles/Cimulation.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/main.c > CMakeFiles/Cimulation.dir/main.c.i
+CMakeFiles/Cimulation.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/main.c > CMakeFiles/Cimulation.dir/src/main.c.i
 
-CMakeFiles/Cimulation.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/main.c -o CMakeFiles/Cimulation.dir/main.c.s
+CMakeFiles/Cimulation.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/main.c -o CMakeFiles/Cimulation.dir/src/main.c.s
 
-CMakeFiles/Cimulation.dir/canvas.c.o: CMakeFiles/Cimulation.dir/flags.make
-CMakeFiles/Cimulation.dir/canvas.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.c
-CMakeFiles/Cimulation.dir/canvas.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Cimulation.dir/canvas.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/canvas.c.o -MF CMakeFiles/Cimulation.dir/canvas.c.o.d -o CMakeFiles/Cimulation.dir/canvas.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.c
+CMakeFiles/Cimulation.dir/src/canvas.c.o: CMakeFiles/Cimulation.dir/flags.make
+CMakeFiles/Cimulation.dir/src/canvas.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.c
+CMakeFiles/Cimulation.dir/src/canvas.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Cimulation.dir/src/canvas.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/src/canvas.c.o -MF CMakeFiles/Cimulation.dir/src/canvas.c.o.d -o CMakeFiles/Cimulation.dir/src/canvas.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.c
 
-CMakeFiles/Cimulation.dir/canvas.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/canvas.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.c > CMakeFiles/Cimulation.dir/canvas.c.i
+CMakeFiles/Cimulation.dir/src/canvas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/src/canvas.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.c > CMakeFiles/Cimulation.dir/src/canvas.c.i
 
-CMakeFiles/Cimulation.dir/canvas.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/canvas.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.c -o CMakeFiles/Cimulation.dir/canvas.c.s
+CMakeFiles/Cimulation.dir/src/canvas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/src/canvas.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.c -o CMakeFiles/Cimulation.dir/src/canvas.c.s
 
-CMakeFiles/Cimulation.dir/geometry.c.o: CMakeFiles/Cimulation.dir/flags.make
-CMakeFiles/Cimulation.dir/geometry.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c
-CMakeFiles/Cimulation.dir/geometry.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Cimulation.dir/geometry.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/geometry.c.o -MF CMakeFiles/Cimulation.dir/geometry.c.o.d -o CMakeFiles/Cimulation.dir/geometry.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c
+CMakeFiles/Cimulation.dir/src/geometry.c.o: CMakeFiles/Cimulation.dir/flags.make
+CMakeFiles/Cimulation.dir/src/geometry.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.c
+CMakeFiles/Cimulation.dir/src/geometry.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Cimulation.dir/src/geometry.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/src/geometry.c.o -MF CMakeFiles/Cimulation.dir/src/geometry.c.o.d -o CMakeFiles/Cimulation.dir/src/geometry.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.c
 
-CMakeFiles/Cimulation.dir/geometry.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/geometry.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c > CMakeFiles/Cimulation.dir/geometry.c.i
+CMakeFiles/Cimulation.dir/src/geometry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/src/geometry.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.c > CMakeFiles/Cimulation.dir/src/geometry.c.i
 
-CMakeFiles/Cimulation.dir/geometry.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/geometry.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c -o CMakeFiles/Cimulation.dir/geometry.c.s
+CMakeFiles/Cimulation.dir/src/geometry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/src/geometry.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.c -o CMakeFiles/Cimulation.dir/src/geometry.c.s
 
-CMakeFiles/Cimulation.dir/myBuffer.c.o: CMakeFiles/Cimulation.dir/flags.make
-CMakeFiles/Cimulation.dir/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/myBuffer.c
-CMakeFiles/Cimulation.dir/myBuffer.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Cimulation.dir/myBuffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/myBuffer.c.o -MF CMakeFiles/Cimulation.dir/myBuffer.c.o.d -o CMakeFiles/Cimulation.dir/myBuffer.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/myBuffer.c
+CMakeFiles/Cimulation.dir/src/myBuffer.c.o: CMakeFiles/Cimulation.dir/flags.make
+CMakeFiles/Cimulation.dir/src/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c
+CMakeFiles/Cimulation.dir/src/myBuffer.c.o: CMakeFiles/Cimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Cimulation.dir/src/myBuffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cimulation.dir/src/myBuffer.c.o -MF CMakeFiles/Cimulation.dir/src/myBuffer.c.o.d -o CMakeFiles/Cimulation.dir/src/myBuffer.c.o -c /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c
 
-CMakeFiles/Cimulation.dir/myBuffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/myBuffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/myBuffer.c > CMakeFiles/Cimulation.dir/myBuffer.c.i
+CMakeFiles/Cimulation.dir/src/myBuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Cimulation.dir/src/myBuffer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c > CMakeFiles/Cimulation.dir/src/myBuffer.c.i
 
-CMakeFiles/Cimulation.dir/myBuffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/myBuffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/myBuffer.c -o CMakeFiles/Cimulation.dir/myBuffer.c.s
+CMakeFiles/Cimulation.dir/src/myBuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Cimulation.dir/src/myBuffer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c -o CMakeFiles/Cimulation.dir/src/myBuffer.c.s
 
 # Object files for target Cimulation
 Cimulation_OBJECTS = \
-"CMakeFiles/Cimulation.dir/main.c.o" \
-"CMakeFiles/Cimulation.dir/canvas.c.o" \
-"CMakeFiles/Cimulation.dir/geometry.c.o" \
-"CMakeFiles/Cimulation.dir/myBuffer.c.o"
+"CMakeFiles/Cimulation.dir/src/main.c.o" \
+"CMakeFiles/Cimulation.dir/src/canvas.c.o" \
+"CMakeFiles/Cimulation.dir/src/geometry.c.o" \
+"CMakeFiles/Cimulation.dir/src/myBuffer.c.o"
 
 # External object files for target Cimulation
 Cimulation_EXTERNAL_OBJECTS =
 
-Cimulation: CMakeFiles/Cimulation.dir/main.c.o
-Cimulation: CMakeFiles/Cimulation.dir/canvas.c.o
-Cimulation: CMakeFiles/Cimulation.dir/geometry.c.o
-Cimulation: CMakeFiles/Cimulation.dir/myBuffer.c.o
+Cimulation: CMakeFiles/Cimulation.dir/src/main.c.o
+Cimulation: CMakeFiles/Cimulation.dir/src/canvas.c.o
+Cimulation: CMakeFiles/Cimulation.dir/src/geometry.c.o
+Cimulation: CMakeFiles/Cimulation.dir/src/myBuffer.c.o
 Cimulation: CMakeFiles/Cimulation.dir/build.make
 Cimulation: CMakeFiles/Cimulation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Cimulation"
