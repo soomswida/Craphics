@@ -87,7 +87,8 @@ CMakeFiles/Cimulation.dir/canvas.c.o: /Users/rumo/Projects/graphics/asciiGraphic
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+  /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.h
 
 CMakeFiles/Cimulation.dir/geometry.c.o: /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.c \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/ptrcheck.h \
@@ -374,8 +375,6 @@ CMakeFiles/Cimulation.dir/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraph
 
 /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/geometry.h:
 
-/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h:
@@ -383,6 +382,8 @@ CMakeFiles/Cimulation.dir/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraph
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h:
 
@@ -490,8 +491,6 @@ CMakeFiles/Cimulation.dir/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraph
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_endian.h:
@@ -499,6 +498,8 @@ CMakeFiles/Cimulation.dir/myBuffer.c.o: /Users/rumo/Projects/graphics/asciiGraph
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/canvas.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h:
 
