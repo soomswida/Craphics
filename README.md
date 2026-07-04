@@ -4,7 +4,7 @@ A simpleton's computer graphics framework in C.
 
 ## C? Did you just get out from a cave?
 
-Kinda yes, as many folks out there do, I might say I love the brutal way to learn something. In fact, writing something in C is, however, not *that* brutal at all, you know, if I were truly intened to hurt myself, I rather would have chosen other truly 'notorious' thugs like assembly. I just want to think about the well-known tension between hardware and software (mostly around the matter of pointer) in the path of building it.  
+Kinda yes, as many folks out there do, I might say I love the brutal way to learn something. In fact, writing something in C is, however, not *that* brutal at all, you know, if I were truly intended to hurt myself, I rather would have chosen other truly 'notorious' thugs like assembly. I just want to think about the well-known tension between hardware and software (mostly around the matter of pointer) in the path of building it.  
 
 ## Why on earth do you do this?
 
