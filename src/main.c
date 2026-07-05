@@ -35,12 +35,11 @@ int main(int argc, char *argv[]) {
 		char canvas[width][height];
 		
 		// Phase 0: Test the new `mmat` and functions which implement it.
-		matt m_canvas; // OK
-		mmakeCanvas(width, height, &m_canvas); // Not ok(seg fault)
-		
-		makeCanvas(width, height, canvas); 
-		printCanvas(width, height, canvas);
-		mprintCanvas(m_canvas);
+		// matt m_canvas; // OK
+		// mmakeCanvas(width, height, &m_canvas); // Not ok(seg fault)
+		// makeCanvas(width, height, canvas); 
+		// printCanvas(width, height, canvas);
+		// mprintCanvas(m_canvas);
 		
 		// Object Configs
 		int coord_x = 0;
@@ -60,16 +59,11 @@ int main(int argc, char *argv[]) {
 		}
 
 		// The Current Phase : Add simple grid to interploate the currently yielded graph 
-
 		// Phase 1: Test the simplest geometry (an unit line)
-
 		// Put the geometry and the canvas to the grid logic
-
 		// Print the result 
 		//printCanvas(width, height, canvas);:38
 
-
-		/*
 		// Animation Loop
 		while (1) {
 			// The Prior Phase : Dynamic Trajectory of Trigonometric functions
@@ -97,7 +91,6 @@ int main(int argc, char *argv[]) {
 			// Functionals 
 			clkSpeed(15.0); 
 		}
-		*/
 	
 		return 0;
 }
