@@ -129,7 +129,7 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 
 
 	// Get the expression for the line w.r.t. the given radian
-	double gradient = (right_y - left_y) / (right_x - left_y);  
+	double grad = (right_y - left_y) / (right_x - left_y);  
 
 	// Exceptions 
 	int isFlat = 0;
@@ -146,11 +146,74 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 
 	// Get the intersection of the line of two dots on the grid
 	// Minimize the number of operatons with lower/upper bounds
-	for (int i = lower_x; i <= upper_x; i++) {
-			for (int j = lower_y; i <= upper_y; j++) {
+	int l_x = (int)floor(lower_x); 
+	int l_y = (int)floor(lower_y); 
+	int u_x = (int)ceil(upper_x);
+	int u_y = (int)ceil(upper_y); 
 
+	for (int i = l_x; i <= u_x; i++) {
+			for (int j = l_y; i <= u_y; j++) {
+					if (isFlat) {
+						int current_y = (int)left_y;
+						grid.mat[i][current_y].degree = 3;
+					} else if (isStand) {
+						int current_x = (int)left_x;
+						grid.mat[current_x][j].degree = 3;
+					} else { // Main logic
+						// Polynomial
+						double p_x = ((double)j - left_y) / grad + left_x;
+						double p_y = grad * (i - left_x) + left_y; 
+
+						int c_x = (int)floor(p_x); 
+						int c_y = (int)floor(p_y);
+
+						double i_x = p_x - (double)c_x;
+						double i_y = p_y - (double)c_y; 
+
+						// if c_x and c_y is invalid, disregard. 
+						int x_valid = c_x >= l_x || c_x < u_x;
+						int y_valid = c_y >= l_y || c_y < u_y;
+
+						if (x_valid && y_valid) {
+							// Put the coord in the grid
+							grid.mat[c_x][c_y].inters[0] = i_x;
+							grid.mat[c_x][c_y].inters[1] = i_y; 
+
+							// (temporary) Get the degree
+							double bar = i_x + i_y;
+
+							if (bar >= 1.0 && bar < 2.0) {
+								grid.mat[c_x][c_y].degree = 3;
+							} else if (bar >= 0.5 && bar < 1.0) {
+								grid.mat[c_x][c_y].degree = 2; 
+							} else if (bar > 0.0 && bar <0.5) {
+								grid.mat[c_x][c_y].degree = 1;
+							} else {
+								// Do nothing.
+							}
+						} else {
+							// Do nothing.
+						}
+					}
 			}
 	}
 
+
+	// Translate the grid into the canvas
+	for (int i = l_x; i < u_x; i++) {
+			for (int j = l_y; j < u_y; j++) {
+				int degree = grid.mat[i][j].degree;
+
+				if (degree == 3) {
+					canvas->mat[i][j] = '#'; 
+				} else if (degree == 2) {
+					canvas->mat[i][j] = '*';
+				} else if (degree == 1) {
+					canvas->mat[i][j] = '.';
+				} else {
+					// Do nothing. 
+				}
+			}
+	}
 	
 }
