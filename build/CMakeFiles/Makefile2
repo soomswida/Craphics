@@ -85,12 +85,12 @@ clean: CMakeFiles/Cimulation.dir/clean
 CMakeFiles/Cimulation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Cimulation"
 .PHONY : CMakeFiles/Cimulation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cimulation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Cimulation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles 0
 .PHONY : CMakeFiles/Cimulation.dir/rule
@@ -102,7 +102,7 @@ Cimulation: CMakeFiles/Cimulation.dir/rule
 # codegen rule for target.
 CMakeFiles/Cimulation.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target Cimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rumo/Projects/graphics/asciiGraphics/simulationPass/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target Cimulation"
 .PHONY : CMakeFiles/Cimulation.dir/codegen
 
 # clean rule for target.

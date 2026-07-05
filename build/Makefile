@@ -225,6 +225,30 @@ src/myBuffer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/myBuffer.c.s
 .PHONY : src/myBuffer.c.s
 
+src/simpleGrid.o: src/simpleGrid.c.o
+.PHONY : src/simpleGrid.o
+
+# target to build an object file
+src/simpleGrid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/simpleGrid.c.o
+.PHONY : src/simpleGrid.c.o
+
+src/simpleGrid.i: src/simpleGrid.c.i
+.PHONY : src/simpleGrid.i
+
+# target to preprocess a source file
+src/simpleGrid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/simpleGrid.c.i
+.PHONY : src/simpleGrid.c.i
+
+src/simpleGrid.s: src/simpleGrid.c.s
+.PHONY : src/simpleGrid.s
+
+# target to generate assembly for a file
+src/simpleGrid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cimulation.dir/build.make CMakeFiles/Cimulation.dir/src/simpleGrid.c.s
+.PHONY : src/simpleGrid.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/myBuffer.o"
 	@echo "... src/myBuffer.i"
 	@echo "... src/myBuffer.s"
+	@echo "... src/simpleGrid.o"
+	@echo "... src/simpleGrid.i"
+	@echo "... src/simpleGrid.s"
 .PHONY : help
 
 

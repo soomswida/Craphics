@@ -36,12 +36,12 @@ int main(int argc, char *argv[]) {
 		
 		// Phase 0: Test the new `mmat` and functions which implement it.
 		matt m_canvas; // OK
-		mmakeCanvas(width, height, &m_canvas); // Not ok(seg fault)
+		mmakeCanvas(width, height, &m_canvas); // Resolved
 		
 		makeCanvas(width, height, canvas); 
 		printCanvas(width, height, canvas);
 		mprintCanvas(m_canvas);
-		
+
 		// Object Configs
 		int coord_x = 0;
 		int coord_y = 50;

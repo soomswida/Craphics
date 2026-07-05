@@ -7,4 +7,5 @@ add_executable(Cimulation
 		./src/canvas.c
 		./src/geometry.c
 		./src/myBuffer.c
+		./src/simpleGrid.c
 ) 

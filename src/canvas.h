@@ -1,7 +1,7 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 
-typedef struct {
+typedef struct matt {
 	char** mat;
 	int rows;
 	int cols;

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Cimulation.dir/src/main.c.o.d"
   "CMakeFiles/Cimulation.dir/src/myBuffer.c.o"
   "CMakeFiles/Cimulation.dir/src/myBuffer.c.o.d"
+  "CMakeFiles/Cimulation.dir/src/simpleGrid.c.o"
+  "CMakeFiles/Cimulation.dir/src/simpleGrid.c.o.d"
   "Cimulation"
   "Cimulation.pdb"
 )
