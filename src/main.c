@@ -68,11 +68,8 @@ int main(int argc, char *argv[]) {
 		}
 
 		// The Current Phase : Add simple grid to interploate the currently yielded graph 
-
 		// Phase 1: Test the simplest geometry (an unit line)
-
 		// Put the geometry and the canvas to the grid logic
-
 		// Print the result 
 		//printCanvas(width, height, canvas);:38
 
@@ -80,7 +77,7 @@ int main(int argc, char *argv[]) {
 		double angle = 0.0;
 		matt m_canvas;
 		
-		// Animation Loop
+        // Animation Loop
 		while (1) {
 			
 			/*
@@ -110,8 +107,6 @@ int main(int argc, char *argv[]) {
 			// Functionals 
 			clkSpeed(16.0); 
 		}
-	
-	
 		return 0;
 }
 
