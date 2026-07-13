@@ -33,6 +33,7 @@ typedef struct {
 } unit;
 
 void buildGrid(matt* canvas, pgrid* grid);
+void destroyGrid(pgrid grid); 
 
 void unitLinePainter(matt* canvas, udot origin, int len, double rad); 
 

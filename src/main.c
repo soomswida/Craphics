@@ -6,6 +6,7 @@
 #include "canvas.h"
 #include "geometry.h" 
 #include "myBuffer.h" 
+#include "simpleGrid.h"
 
 //-----------------------Clock
 void clkSpeed(float sec) {
@@ -35,14 +36,21 @@ int main(int argc, char *argv[]) {
 		char canvas[width][height];
 		
 		// Phase 0: Test the new `mmat` and functions which implement it.
-		matt m_canvas; // OK
-		mmakeCanvas(width, height, &m_canvas); // Resolved
+		//matt m_canvas; // OK
+		//mmakeCanvas(width, height, &m_canvas); // Resolved
 		
-		makeCanvas(width, height, canvas); 
-		printCanvas(width, height, canvas);
-		mprintCanvas(m_canvas);
+		//makeCanvas(width, height, canvas); 
+		//printCanvas(width, height, canvas);
+		
+		udot anchor;
+		anchor.coords[0] = width / 2;
+		anchor.coords[1] = height / 2; 
+		//unitLinePainter(&m_canvas, anchor, 10, 0.0); // Segfault resolved. 
+		//mprintCanvas(m_canvas);
 
-		// Object Configs
+		//After the use of grid and canvas, you should free it!
+
+		// Object Configs(Sine Graph)
 		int coord_x = 0;
 		int coord_y = 50;
 		int x = 0;
@@ -68,36 +76,41 @@ int main(int argc, char *argv[]) {
 		// Print the result 
 		//printCanvas(width, height, canvas);:38
 
-
-		/*
+		// For Rotatong-Interpolated Line
+		double angle = 0.0;
+		matt m_canvas;
+		
 		// Animation Loop
 		while (1) {
-			// The Prior Phase : Dynamic Trajectory of Trigonometric functions
+			
+			/*
+			// Rotating-Interpolated Line
+			mmakeCanvas(width, height, &m_canvas); // Resolved
+			unitLinePainter(&m_canvas, anchor, 10, angle); 		
+			mprintCanvas(m_canvas);
+			angle = angle + 0.01; 
+			*/
 
+			// Dynamic Trajectory of Trigonometric functions
 			// 1. Prepares ingredients 
 			raw_x = (double)x;
 			raw_y = y_scale * sin(raw_x * x_scale);
 			y = (int)raw_y;
-		
 			// 2. Put it in the buffer
 			intPush(len, &y, buffer);
-
 			// 3. Draw the trajectory
 			drawTrajectory(width, height, canvas, coord_x, coord_y, len, buffer, y_scale);
-
 			// 4. Print the canvas
 			printCanvas(width, height, canvas);
-
 			// 5. Reset the canvas
 			makeCanvas(width, height, canvas); 
-
 			// Increment
-			x++; 	
+			x++; 
 
 			// Functionals 
-			clkSpeed(15.0); 
+			clkSpeed(16.0); 
 		}
-		*/
+	
 	
 		return 0;
 }

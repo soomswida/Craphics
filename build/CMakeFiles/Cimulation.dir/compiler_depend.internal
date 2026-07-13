@@ -284,6 +284,7 @@ CMakeFiles/Cimulation.dir/src/main.c.o
  /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/canvas.h
  /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/geometry.h
  /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.h
+ /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/simpleGrid.h
 
 CMakeFiles/Cimulation.dir/src/myBuffer.c.o
  /Users/rumo/Projects/graphics/asciiGraphics/simulationPass/src/myBuffer.c

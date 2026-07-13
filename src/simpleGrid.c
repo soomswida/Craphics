@@ -18,13 +18,8 @@
 
 // The main function: Empty Canvas & Gemetry -> Painted(Interploated) Canvas
 
-// But for now, we need to show it can properly deal with a really simple geometry,
-// for example, a straight line.
-
 // This line stuff, acutally, has more importance than as a mere simple test,
 // because it will play a primary role when it comes to 'polygon'.
-
-
 
 // Helper of `unitLinePainter` — builds a pixter matrix(Grid) w.r.t. 
 // the given canvas.
@@ -54,14 +49,16 @@ void buildGrid(matt* canvas, pgrid* grid) {
 
 }
 
-
-// Let's implement a function for an unit line: 
-// ([0,0], [0,1]) && ([0,0], [1,0]) && ([0,0], [1,1]) && [(0,1), (1,0)]
+void destroyGraph(pgrid grid) {
+	int rows = grid.rows;
+	for (int i = 0; i < rows; i++) {
+		free(grid.mat[i]); 
+	}
+	free(grid.mat); 
+}
 
 
 /*
-But, why do we need those four type of unit lines at the first place? 
-They can be yielded by the simplest linear transformation.
 What we really need is a single line and the logic for its 
 linear transformation. 
 */
@@ -111,7 +108,7 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 	double right_y = y_o; 
 
 	// Rotation Transformation
-	double theta = rad * (180 / M_PI);
+	double theta = rad;
 
 	double buffer_x = left_x;
 	double buffer_y = left_y;
@@ -123,13 +120,10 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 	buffer_y = right_y;
 
 	right_x = buffer_x * cos(theta) - buffer_y * sin(theta);
-	right_y = buffer_x * sin(theta) + buffer_y * sin(theta); 
-
-	
-
+	right_y = buffer_x * sin(theta) + buffer_y * cos(theta); 
 
 	// Get the expression for the line w.r.t. the given radian
-	double grad = (right_y - left_y) / (right_x - left_y);  
+	double grad = (right_y - left_y) / (right_x - left_x);  
 
 	// Exceptions 
 	int isFlat = 0;
@@ -152,7 +146,13 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 	int u_y = (int)ceil(upper_y); 
 
 	for (int i = l_x; i <= u_x; i++) {
-			for (int j = l_y; i <= u_y; j++) {
+			// Bounds safeguards 
+			if (i < 0 || i >= rows) continue; 
+			
+			for (int j = l_y; j <= u_y; j++) {
+					// Bounds safeguards
+					if (j < 0 || j >= cols) continue; 
+
 					if (isFlat) {
 						int current_y = (int)left_y;
 						grid.mat[i][current_y].degree = 3;
@@ -171,8 +171,8 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 						double i_y = p_y - (double)c_y; 
 
 						// if c_x and c_y is invalid, disregard. 
-						int x_valid = c_x >= l_x || c_x < u_x;
-						int y_valid = c_y >= l_y || c_y < u_y;
+						int x_valid = c_x >= l_x && c_x <= u_x;
+						int y_valid = c_y >= l_y && c_y <= u_y;
 
 						if (x_valid && y_valid) {
 							// Put the coord in the grid
@@ -201,9 +201,11 @@ void unitLinePainter(matt* canvas, udot origin, int len, double rad) {
 
 	// Translate the grid into the canvas
 	for (int i = l_x; i < u_x; i++) {
+			// Safeguard
+			if (i < 0 || i >= rows) continue;
 			for (int j = l_y; j < u_y; j++) {
+				if (j < 0 || j >= cols) continue; 
 				int degree = grid.mat[i][j].degree;
-
 				if (degree == 3) {
 					canvas->mat[i][j] = '#'; 
 				} else if (degree == 2) {
