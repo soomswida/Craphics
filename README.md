@@ -18,6 +18,18 @@ Furthermore, we've got to think of the fact we implicitly assume "what it is" is
 
 So my vulgar answer is this — This foolish endevour is the first doorstep to the attitude of "knowing the fact that we do not".
 
+## How To Build It
+
+This project uses Cmake:
+
+```bash
+mkdir build
+cd build
+cmake ..
+cd ..
+cmake --build build
+```
+
 ## LLM Usage
 
 All codes and descriptions here are written by me. Any kind of supports of LLMs was not included here, except for seaching stuff. 
