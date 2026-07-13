@@ -1,1 +1,0 @@
-/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Cimulation.dir/src/main.c.o CMakeFiles/Cimulation.dir/src/canvas.c.o CMakeFiles/Cimulation.dir/src/geometry.c.o CMakeFiles/Cimulation.dir/src/myBuffer.c.o CMakeFiles/Cimulation.dir/src/simpleGrid.c.o -o Cimulation
