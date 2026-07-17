@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+  GREETING: Hello, world!
+
+tasks:
+  default:
+    # desc: Print a greeting message
+    # cmds:
+    #  - echo "{{.GREETING}}"
+    # silent: true
+
+  cinit:
+    desc: "Configuring CMake"
+    cmds:
+      - cmake -B build -S .
+
+  build:
+    decs: "Build The Project"
+    cmds:
+      - cmake --build build
+
+  oneshot: # TODO: Need to configure on parameters
+    decs: "Build and Run"
+    cmds: 
+      - cmake --build build && ./build/Cimulation
+
+  clean:
+    desc: "Removing Prior CMake Configurations and Caches"
+
+    cmds:
+      - rm -r build

@@ -20,14 +20,17 @@ So my vulgar answer is this — This foolish endevour is the first doorstep to t
 
 ## How To Build It
 
-This project uses Cmake:
+This project uses Task, if you don't have Task yet, you can install it [here](https://taskfile.dev/docs/installation).
 
 ```bash
-mkdir build
-cd build
-cmake ..
-cd ..
-cmake --build build
+# initialize Cmake
+task cinit
+
+# build the project
+task build
+
+#　reset the config
+task remove
 ```
 
 ## LLM Usage
